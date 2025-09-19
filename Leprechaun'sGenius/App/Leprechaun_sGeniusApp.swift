@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct Leprechaun_sGeniusApp: App {
+    
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
         WindowGroup {
-            LGLaunchView()
+            AppEntryPoint()
         }
     }
 }

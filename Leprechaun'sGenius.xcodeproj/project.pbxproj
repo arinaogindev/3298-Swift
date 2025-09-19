@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 63;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,15 @@
 		72413FA42E7411D1000F0503 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72413FA02E7411D1000F0503 /* View+Extensions.swift */; };
 		72413FA52E7411D1000F0503 /* ShapeStyle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72413FA22E7411D1000F0503 /* ShapeStyle+Extensions.swift */; };
 		72413FA62E7411D1000F0503 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72413FA12E7411D1000F0503 /* Color+Extensions.swift */; };
+		724141722E7D53C2000F0503 /* AppEntryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724141712E7D53C2000F0503 /* AppEntryPoint.swift */; };
+		724141732E7D53C2000F0503 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724141702E7D53C2000F0503 /* AppDelegate.swift */; };
+		724141752E7D53EF000F0503 /* TextScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724141742E7D53EF000F0503 /* TextScreen.swift */; };
+		7241417D2E7D5470000F0503 /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7241417B2E7D5470000F0503 /* PrivacyView.swift */; };
+		724141842E7D5477000F0503 /* UserAgentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7241417F2E7D5477000F0503 /* UserAgentBuilder.swift */; };
+		724141852E7D5477000F0503 /* WebViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724141802E7D5477000F0503 /* WebViewContainer.swift */; };
+		724141862E7D5477000F0503 /* WebViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724141812E7D5477000F0503 /* WebViewCoordinator.swift */; };
+		724141872E7D5477000F0503 /* WebSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724141822E7D5477000F0503 /* WebSheetViewController.swift */; };
+		724141882E7D5477000F0503 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 7241417E2E7D5477000F0503 /* index.html */; };
 		A2B423360D760120598255A5 /* Pods_Leprechaun_sGenius.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC96FA241AF7A3404D58109 /* Pods_Leprechaun_sGenius.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +37,15 @@
 		72413FA12E7411D1000F0503 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		72413FA22E7411D1000F0503 /* ShapeStyle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapeStyle+Extensions.swift"; sourceTree = "<group>"; };
 		72413FA72E741314000F0503 /* Leprechaun-sGenius-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Leprechaun-sGenius-Info.plist"; sourceTree = SOURCE_ROOT; };
+		724141702E7D53C2000F0503 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		724141712E7D53C2000F0503 /* AppEntryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntryPoint.swift; sourceTree = "<group>"; };
+		724141742E7D53EF000F0503 /* TextScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextScreen.swift; sourceTree = "<group>"; };
+		7241417B2E7D5470000F0503 /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
+		7241417E2E7D5477000F0503 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		7241417F2E7D5477000F0503 /* UserAgentBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgentBuilder.swift; sourceTree = "<group>"; };
+		724141802E7D5477000F0503 /* WebViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewContainer.swift; sourceTree = "<group>"; };
+		724141812E7D5477000F0503 /* WebViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewCoordinator.swift; sourceTree = "<group>"; };
+		724141822E7D5477000F0503 /* WebSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSheetViewController.swift; sourceTree = "<group>"; };
 		7FC96FA241AF7A3404D58109 /* Pods_Leprechaun_sGenius.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Leprechaun_sGenius.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0D9144294FF9D014FD442C /* Pods-Leprechaun'sGenius.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leprechaun'sGenius.release.xcconfig"; path = "Target Support Files/Pods-Leprechaun'sGenius/Pods-Leprechaun'sGenius.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +103,8 @@
 		72413F982E741169000F0503 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				724141702E7D53C2000F0503 /* AppDelegate.swift */,
+				724141712E7D53C2000F0503 /* AppEntryPoint.swift */,
 				72413F942E741162000F0503 /* Leprechaun_sGeniusApp.swift */,
 			);
 			path = App;
@@ -109,6 +129,8 @@
 		72413F9D2E7411CA000F0503 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				724141832E7D5477000F0503 /* Web */,
+				7241417C2E7D5470000F0503 /* PrivacyScreen */,
 				72413F9A2E7411CA000F0503 /* HomeWebScreen */,
 				72413F9C2E7411CA000F0503 /* LaunchScreen */,
 			);
@@ -118,11 +140,32 @@
 		72413FA32E7411D1000F0503 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				724141742E7D53EF000F0503 /* TextScreen.swift */,
 				72413FA02E7411D1000F0503 /* View+Extensions.swift */,
 				72413FA12E7411D1000F0503 /* Color+Extensions.swift */,
 				72413FA22E7411D1000F0503 /* ShapeStyle+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7241417C2E7D5470000F0503 /* PrivacyScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7241417B2E7D5470000F0503 /* PrivacyView.swift */,
+			);
+			path = PrivacyScreen;
+			sourceTree = "<group>";
+		};
+		724141832E7D5477000F0503 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				7241417E2E7D5477000F0503 /* index.html */,
+				7241417F2E7D5477000F0503 /* UserAgentBuilder.swift */,
+				724141802E7D5477000F0503 /* WebViewContainer.swift */,
+				724141812E7D5477000F0503 /* WebViewCoordinator.swift */,
+				724141822E7D5477000F0503 /* WebSheetViewController.swift */,
+			);
+			path = Web;
 			sourceTree = "<group>";
 		};
 		7F54101B6A6C2E1E103B154A /* Pods */ = {
@@ -131,7 +174,6 @@
 				0356764926198E362EF385D2 /* Pods-Leprechaun'sGenius.debug.xcconfig */,
 				CC0D9144294FF9D014FD442C /* Pods-Leprechaun'sGenius.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -172,6 +214,7 @@
 				};
 			};
 			buildConfigurationList = 72413F7E2E74114E000F0503 /* Build configuration list for PBXProject "Leprechaun'sGenius" */;
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -180,7 +223,6 @@
 			);
 			mainGroup = 72413F7A2E74114E000F0503;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 55;
 			productRefGroup = 72413F842E74114E000F0503 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -196,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72413F962E741162000F0503 /* Assets.xcassets in Resources */,
+				724141882E7D5477000F0503 /* index.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,11 +275,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				72413FA42E7411D1000F0503 /* View+Extensions.swift in Sources */,
+				724141752E7D53EF000F0503 /* TextScreen.swift in Sources */,
+				724141722E7D53C2000F0503 /* AppEntryPoint.swift in Sources */,
+				724141732E7D53C2000F0503 /* AppDelegate.swift in Sources */,
+				724141842E7D5477000F0503 /* UserAgentBuilder.swift in Sources */,
+				724141852E7D5477000F0503 /* WebViewContainer.swift in Sources */,
+				724141862E7D5477000F0503 /* WebViewCoordinator.swift in Sources */,
+				724141872E7D5477000F0503 /* WebSheetViewController.swift in Sources */,
 				72413FA52E7411D1000F0503 /* ShapeStyle+Extensions.swift in Sources */,
 				72413FA62E7411D1000F0503 /* Color+Extensions.swift in Sources */,
 				72413F972E741162000F0503 /* Leprechaun_sGeniusApp.swift in Sources */,
 				72413F9E2E7411CA000F0503 /* LGHomeWebView.swift in Sources */,
 				72413F9F2E7411CA000F0503 /* LGLaunchView.swift in Sources */,
+				7241417D2E7D5470000F0503 /* PrivacyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +415,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -384,7 +435,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.arinaprojdev.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
@@ -405,7 +456,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -425,7 +476,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.arinaprojdev.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
